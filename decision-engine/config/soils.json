@@ -1,0 +1,46 @@
+{
+  "config_version": "2026-10-08-soils-v1",
+  "source": "FAO Irrigation and Drainage Paper No. 56, Table 19",
+  "soils": {
+    "loam": {
+      "name": "Loam",
+      "display_name_en": "Loam",
+      "display_name_hi": "दोमट मिट्टी",
+      "field_capacity_fc": 0.27,
+      "wilting_point_wp": 0.12,
+      "available_water_capacity_mm_per_m": 150.0
+    },
+    "clay_loam": {
+      "name": "Clay Loam",
+      "display_name_en": "Clay Loam",
+      "display_name_hi": "चिकनी दोमट",
+      "field_capacity_fc": 0.32,
+      "wilting_point_wp": 0.15,
+      "available_water_capacity_mm_per_m": 170.0
+    },
+    "sandy_loam": {
+      "name": "Sandy Loam",
+      "display_name_en": "Sandy Loam",
+      "display_name_hi": "बलुई दोमट",
+      "field_capacity_fc": 0.18,
+      "wilting_point_wp": 0.08,
+      "available_water_capacity_mm_per_m": 100.0
+    },
+    "clay": {
+      "name": "Clay",
+      "display_name_en": "Heavy Clay",
+      "display_name_hi": "मटियारी मिट्टी",
+      "field_capacity_fc": 0.36,
+      "wilting_point_wp": 0.21,
+      "available_water_capacity_mm_per_m": 150.0
+    },
+    "sandy": {
+      "name": "Sandy",
+      "display_name_en": "Sandy Soil",
+      "display_name_hi": "बलुई मिट्टी",
+      "field_capacity_fc": 0.10,
+      "wilting_point_wp": 0.04,
+      "available_water_capacity_mm_per_m": 60.0
+    }
+  }
+}

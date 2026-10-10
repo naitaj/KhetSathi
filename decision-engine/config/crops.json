@@ -1,0 +1,147 @@
+{
+  "config_version": "2026-10-08-crops-v1",
+  "source": "FAO Irrigation and Drainage Paper No. 56",
+  "crops": {
+    "maize": {
+      "name": "Maize",
+      "display_name_en": "Maize (Corn)",
+      "display_name_hi": "मक्का",
+      "total_days": 125,
+      "allowable_depletion_p": 0.55,
+      "max_root_depth_m": 1.0,
+      "preferred_start_time_ist": "06:00",
+      "stages": [
+        {
+          "stage_id": "initial",
+          "name": "Initial (Germination / Seedling)",
+          "days": 20,
+          "kc_start": 0.30,
+          "kc_end": 0.30,
+          "root_depth_start_m": 0.30,
+          "root_depth_end_m": 0.30
+        },
+        {
+          "stage_id": "development",
+          "name": "Crop Development",
+          "days": 35,
+          "kc_start": 0.30,
+          "kc_end": 1.20,
+          "root_depth_start_m": 0.30,
+          "root_depth_end_m": 0.80
+        },
+        {
+          "stage_id": "mid_season",
+          "name": "Mid-Season (Tasseling / Silking)",
+          "days": 40,
+          "kc_start": 1.20,
+          "kc_end": 1.20,
+          "root_depth_start_m": 0.80,
+          "root_depth_end_m": 1.00
+        },
+        {
+          "stage_id": "late_season",
+          "name": "Late Season (Grain Fill / Ripening)",
+          "days": 30,
+          "kc_start": 1.20,
+          "kc_end": 0.50,
+          "root_depth_start_m": 1.00,
+          "root_depth_end_m": 1.00
+        }
+      ]
+    },
+    "tomato": {
+      "name": "Tomato",
+      "display_name_en": "Tomato",
+      "display_name_hi": "टमाटर",
+      "total_days": 145,
+      "allowable_depletion_p": 0.40,
+      "max_root_depth_m": 0.70,
+      "preferred_start_time_ist": "06:00",
+      "stages": [
+        {
+          "stage_id": "initial",
+          "name": "Initial",
+          "days": 30,
+          "kc_start": 0.60,
+          "kc_end": 0.60,
+          "root_depth_start_m": 0.25,
+          "root_depth_end_m": 0.25
+        },
+        {
+          "stage_id": "development",
+          "name": "Crop Development",
+          "days": 40,
+          "kc_start": 0.60,
+          "kc_end": 1.15,
+          "root_depth_start_m": 0.25,
+          "root_depth_end_m": 0.60
+        },
+        {
+          "stage_id": "mid_season",
+          "name": "Mid-Season (Flowering / Fruiting)",
+          "days": 45,
+          "kc_start": 1.15,
+          "kc_end": 1.15,
+          "root_depth_start_m": 0.60,
+          "root_depth_end_m": 0.70
+        },
+        {
+          "stage_id": "late_season",
+          "name": "Late Season (Harvesting)",
+          "days": 30,
+          "kc_start": 1.15,
+          "kc_end": 0.80,
+          "root_depth_start_m": 0.70,
+          "root_depth_end_m": 0.70
+        }
+      ]
+    },
+    "potato": {
+      "name": "Potato",
+      "display_name_en": "Potato",
+      "display_name_hi": "आलू",
+      "total_days": 110,
+      "allowable_depletion_p": 0.35,
+      "max_root_depth_m": 0.60,
+      "preferred_start_time_ist": "06:00",
+      "stages": [
+        {
+          "stage_id": "initial",
+          "name": "Initial (Sprouting)",
+          "days": 25,
+          "kc_start": 0.50,
+          "kc_end": 0.50,
+          "root_depth_start_m": 0.20,
+          "root_depth_end_m": 0.20
+        },
+        {
+          "stage_id": "development",
+          "name": "Crop Development (Tuber initiation)",
+          "days": 30,
+          "kc_start": 0.50,
+          "kc_end": 1.15,
+          "root_depth_start_m": 0.20,
+          "root_depth_end_m": 0.50
+        },
+        {
+          "stage_id": "mid_season",
+          "name": "Mid-Season (Tuber bulking)",
+          "days": 35,
+          "kc_start": 1.15,
+          "kc_end": 1.15,
+          "root_depth_start_m": 0.50,
+          "root_depth_end_m": 0.60
+        },
+        {
+          "stage_id": "late_season",
+          "name": "Late Season (Maturation)",
+          "days": 20,
+          "kc_start": 1.15,
+          "kc_end": 0.75,
+          "root_depth_start_m": 0.60,
+          "root_depth_end_m": 0.60
+        }
+      ]
+    }
+  }
+}

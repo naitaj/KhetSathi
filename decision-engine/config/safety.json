@@ -1,0 +1,22 @@
+{
+  "config_version": "2026-10-08-safety-v1",
+  "source": "FAO-56 & KhetSathi Agronomic Safety Rules",
+  "rules": {
+    "max_duration_minutes": 60,
+    "max_daily_depth_mm": 25.0,
+    "min_interval_hours": 24.0,
+    "rainfall_skip_coverage_fraction": 0.75,
+    "effective_rain_fraction": 0.80,
+    "min_effective_rain_threshold_mm": 2.0,
+    "depletion_trigger_fraction": 0.85,
+    "severe_depletion_fraction": 0.90,
+    "max_stale_weather_hours": 36.0,
+    "default_application_efficiency": 0.75,
+    "duration_rounding_increment_minutes": 5,
+    "min_recommended_duration_minutes": 15,
+    "preferred_irrigation_window": {
+      "start_hour_ist": 6,
+      "end_hour_ist": 9
+    }
+  }
+}
